@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MY HOMETOWN</title>
+    <!-- Bootstrap CSS JS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKqNrHV604Xptk4ofRq4NhpSEMU8NXon0&callback=initMap"></script>
+    <script src="js/bucket.js"></script>
+  </head>
+
+  <body>
+    <div class="container content-box">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Hengyang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Map</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Introduction
+                    </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">More</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <h1>My Google Maps Demo</h1>
+      <div id="map"></div>
+
+      <div class="card text-center">
+        <!-- Start row 1 -->
+        <div class="card-header">
+          Hengyang, Hunan Province, China
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">About The City</h5>
+          <p class="card-text">Hengyang is the second largest city of Hunan Province, China. It straddles the Xiang River about 160 km (99 mi) south of the provincial capital of Changsha. Its built-up (or metro) area made of 4 out of 5 urban districts was home to 1,075,516
+            inhabitants at the 2010 census.</p>
+          <a href="#" class="btn btn-primary">Learn more</a>
+        </div>
+        <div class="card-footer text-muted">
+          From Wikipedia, the free encyclopedia
+        </div>
+      </div>
+      <!-- // End row 1 -->
+    </div>
+  </body>
+
+</html>
